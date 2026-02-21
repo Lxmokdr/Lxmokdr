@@ -2,9 +2,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';
-import { FaReact, FaFire, FaPython, FaCuttlefish } from 'react-icons/fa';
-import { SiFlutter, SiNextdotjs, SiAdobeillustrator, SiAdobeaftereffects, SiMysql, SiLatex, } from 'react-icons/si';
-import { SiAdobepremierepro } from 'react-icons/si';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useState, useEffect } from 'react';
 
@@ -274,47 +271,47 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-<section id="who-am-i" className="py-20 px-8">
-  <div className="max-w-6xl mx-auto">
-    <div className="grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <h2 className="text-4xl font-bold bg-gradient-to-r from-orange-400 to-yellow-500 bg-clip-text text-transparent mb-6">
-          About Me
-        </h2>
+      <section id="who-am-i" className="py-20 px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold bg-gradient-to-r from-orange-400 to-yellow-500 bg-clip-text text-transparent mb-6">
+                About Me
+              </h2>
 
-        <p className="text-lg text-blue-200 leading-relaxed mb-6">
-          I am a Data Science & Artificial Intelligence engineering student at the 
-          National Polytechnic School of Algiers (ENP), specializing in intelligent systems, 
-          hybrid NLP architectures, and scalable software design.
-        </p>
+              <p className="text-lg text-blue-200 leading-relaxed mb-6">
+                I am a Data Science & Artificial Intelligence engineering student at the
+                National Polytechnic School of Algiers (ENP), specializing in intelligent systems,
+                hybrid NLP architectures, and scalable software design.
+              </p>
 
-        <p className="text-blue-300 leading-relaxed mb-6">
-          My work focuses on designing secure and explainable AI systems — including 
-          neuro-symbolic NLP agents, RAG-based document retrieval solutions, and 
-          structured knowledge extraction pipelines for institutional environments 
-          such as banking and air traffic control systems.
-        </p>
+              <p className="text-blue-300 leading-relaxed mb-6">
+                My work focuses on designing secure and explainable AI systems — including
+                neuro-symbolic NLP agents, RAG-based document retrieval solutions, and
+                structured knowledge extraction pipelines for institutional environments
+                such as banking and air traffic control systems.
+              </p>
 
-        <p className="text-blue-300 leading-relaxed">
-          Beyond AI, I build full-stack and cross-platform applications using 
-          Next.js, Flutter, and Firebase, applying Clean Architecture principles, 
-          role-based access control, and scalable database modeling to deliver 
-          reliable, production-ready digital solutions.
-        </p>
-      </div>
+              <p className="text-blue-300 leading-relaxed">
+                Beyond AI, I build full-stack and cross-platform applications using
+                Next.js, Flutter, and Firebase, applying Clean Architecture principles,
+                role-based access control, and scalable database modeling to deliver
+                reliable, production-ready digital solutions.
+              </p>
+            </div>
 
-      <div className="flex justify-center">
-        <Image
-          src="/assets/certificate.jpeg"
-          alt="Certificate"
-          width={400}
-          height={400}
-          className="rounded-lg shadow-lg"
-        />
-      </div>
-    </div>
-  </div>
-</section>
+            <div className="flex justify-center">
+              <Image
+                src="/assets/certificate.jpeg"
+                alt="Certificate"
+                width={400}
+                height={400}
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
